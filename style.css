@@ -44,7 +44,7 @@ body{
 .qr-header input,select{
     padding: 8px;
     border-radius: var(--border-radius);
-    font-size: 15px;
+    font-size: 13px;
     border: 1.5px solid var(--border-color);
     
 }
@@ -74,7 +74,7 @@ body{
 }
 .qr-body{
     display: grid;
-    place-items: start;
+    place-items: center;
     padding: 10px;
 }
 .qr-body img{
@@ -88,7 +88,7 @@ body{
 @media screen and(max-width:520px) {
     .box{
         width: 100%;
-        margin: 15px;
+        padding:20px;
     }
     .qr-body a{
         font-size: 25px;
