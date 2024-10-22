@@ -23,51 +23,50 @@ body{
 }
 .box{
     background-color: var(--primary-color);
-    width: 400px;
+    width:350px;
     border-radius: var(--border-radius);
     padding: 40px;
 
 }
 .qr-header h1{
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     color:var(--secondary-color);
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     text-transform: uppercase;
 }
 .qr-header input{
     width: 100%;
-    margin-block:  12px;
+    margin-block:8px;
 
 
 }
 .qr-header input,select{
     padding: 8px;
     border-radius: var(--border-radius);
-    font-size: 18px;
-    border: 2px solid var(--border-color);
+    font-size: 15px;
+    border: 1.5px solid var(--border-color);
     
 }
 .qr-header label{
     color: var(--secondary-color);
-    font-size: 20px;
+    font-size: 15px;
 }
 .qr-header div{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
 
 }
 .qr-footer{
     margin-top: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .qr-footer a{
     background-color: var(--secondary-color);
     text-decoration: none;
-    font-size: 20px;
-    margin-inline:2px;
-    padding: 14px 36px;
+    font-size: 15px;
+    padding: 10px 20px;
     color: var(--primary-color);
     font-weight: 500;
     border-radius: var(--border-radius);
@@ -75,8 +74,8 @@ body{
 }
 .qr-body{
     display: grid;
-    place-items: center;
-    padding: 20px;
+    place-items: start;
+    padding: 10px;
 }
 .qr-body img{
     max-width: 100%;
@@ -88,12 +87,16 @@ body{
 }
 @media screen and(max-width:520px) {
     .box{
-        width: 80%;
+        width: 100%;
+        margin: 15px;
     }
     .qr-body a{
-        font-size: 15px;
+        font-size: 25px;
         padding: 12px;
         
     }
-    
+    .qr-header input,select{
+
+        font-size: 15px;
+    }
 }
