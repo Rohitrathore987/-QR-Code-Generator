@@ -38,6 +38,8 @@ body{
 .qr-header input{
     width: 100%;
     margin-block:8px;
+    gap: 10px;
+
 
 
 }
@@ -45,6 +47,7 @@ body{
     padding: 8px;
     border-radius: var(--border-radius);
     font-size: 13px;
+    gap: 10px;
     border: 1.5px solid var(--border-color);
     
 }
@@ -54,7 +57,9 @@ body{
 }
 .qr-header div{
     display: flex;
-    justify-content:center;
+    margin: 10px;
+    gap: 8px;
+    justify-content:end;
 
 }
 .qr-footer{
@@ -74,7 +79,7 @@ body{
 }
 .qr-body{
     display: grid;
-    place-items: center;
+    place-items:center;
     padding: 10px;
 }
 .qr-body img{
